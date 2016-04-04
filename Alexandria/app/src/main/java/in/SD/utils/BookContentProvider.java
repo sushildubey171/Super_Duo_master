@@ -16,7 +16,7 @@ import java.util.HashMap;
 public class BookContentProvider extends ContentProvider {
 
 
-    private static final String AUTHORITY = "in.kushalsharma.alexandria.provider";
+    private static final String AUTHORITY = "in.SD.alexandria.provider";
     private static final String BASE_PATH = "books";
     public static final Uri CONTENT_URI = Uri.parse("content://" + AUTHORITY + "/" + BASE_PATH);
     private static HashMap<String, String> PROJECTION_MAP;
